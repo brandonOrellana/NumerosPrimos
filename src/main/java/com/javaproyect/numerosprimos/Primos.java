@@ -13,7 +13,7 @@ public class Primos {
     
     public static void main(String[] args) {
         do{
-            System.out.println("Ingrese numero primo > 0, -1 para finalizar:");
+            System.out.println("Enter a prime number > 0, -1 to finish:");
             try{
                 primo = reader.nextInt();
             }catch(InputMismatchException ime){
